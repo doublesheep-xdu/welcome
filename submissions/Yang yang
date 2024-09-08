@@ -1,0 +1,26 @@
+#include"bits/stdc++.h"
+using namespace std;
+int main()   //为啥不能只写一个简简单单弱弱智智主函数呢
+{
+	int a;
+	int b[100];
+	printf("please input the number/n");
+	scanf("%d",&a);
+	for(int i=0;i<a;i++)
+	{
+		scanf("%d",&b[i]);
+	}
+	for(int i=0;i<a;i++)
+	{
+		for(int j=i;j<a;j++)
+		{
+			if(a[i]>a[j])
+				soup(a[i],a[j])
+		}
+	}
+	printf("after sorting:");
+	for(int 0;i<a;i++)
+		printf("%d ",a[i]);
+	return 0;
+}
+		
